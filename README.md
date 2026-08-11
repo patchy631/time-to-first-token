@@ -12,7 +12,7 @@ The alternative approach, running seventeen disconnected experiments, spends mos
 
 You should be comfortable with Python, transformers at the architecture level, and the command line. You do not need prior serving, Kubernetes, or CUDA experience.
 
-If you already know a topic, the sessions marked **skim** are the ones to compress. Do not compress the build sessions, they are the point.
+If you already know a topic, the sessions marked **skim** are the ones to compress. Do not compress the build sessions; they are the point.
 
 ## What you will have at the end
 
