@@ -119,7 +119,7 @@ Legend: **read** sessions load context, **build** sessions produce output. **ski
 | Day | Session |
 |---|---|
 | Mon | *read, skim* · [PagedAttention announcement](https://blog.vllm.ai/2023/06/20/vllm.html). Prior systems waste 60-80% of KV memory on fragmentation and over-reservation; fixed-size blocks cut waste under 4%. Then skim the [SOSP paper](https://arxiv.org/abs/2309.06180) block-table section. |
-| Tue | *build* · Serve Llama-3.1-8B-Instruct or Qwen2.5-7B behind vLLM's OpenAI-compatible server. Save the launch command, you reuse it for ten weeks. [Modal example](https://modal.com/docs/examples/vllm_inference). |
+| Tue | *build* · Serve Llama-3.1-8B-Instruct or Qwen2.5-7B behind vLLM's OpenAI-compatible server. Save the launch command; you reuse it for ten weeks. [Modal example](https://modal.com/docs/examples/vllm_inference). |
 | Wed | *read* · [vLLM Office Hours 22: Intro to vLLM V1](https://www.youtube.com/watch?v=jmzIvQZCLZM) (Michael Goin, Red Hat). Written version: [vLLM V1 architecture](https://blog.vllm.ai/2025/01/27/v1-alpha-release.html). |
 | Thu | *read* · [Inside vLLM: Anatomy of a High-Throughput Inference System](https://blog.vllm.ai/2025/09/05/anatomy-of-vllm.html), scheduler and block manager sections. |
 | Fri | *build* · Follow the block table code path in [the repo](https://github.com/vllm-project/vllm). Write three sentences on how a request's blocks get looked up. If you cannot, read it again. |
