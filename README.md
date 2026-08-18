@@ -4,7 +4,7 @@
 
 # Learn LLM Inference Serving by Shipping One Service
 
-A 10-week, 30-minutes-a-day roadmap for engineers who want to actually run LLM inference in production, not just read about it.
+A 10-week, 30-minute-a-day roadmap for engineers who want to actually run LLM inference in production, not just read about it.
 
 Fifty sessions. Every one of them feeds a single artifact: an OpenAI-compatible inference service that you deploy on a rented GPU, instrument, load test past 1000 concurrent requests, optimize with quantization and speculative decoding, put a cost-aware router in front of, and publish as a reproducible benchmark.
 
