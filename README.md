@@ -380,6 +380,12 @@ A few things to keep in mind:
 - Performance figures quoted here are the sources' own claims from their papers and blogs, not independently reproduced. Treat them as the number that source is willing to defend, not as ground truth for your hardware.
 - Cost per million tokens and GPU hourly rates move fast. The economics reading is valuable for its method. Re-derive every number against your own hardware.
 
+## Community writeups
+
+Finished the roadmap and published your benchmark? Add yours here with a PR.
+
+- [LLM Inference Mastery (中文)](https://github.com/cypggs/llm-inference-mastery) by [@cypggs](https://github.com/cypggs) — Complete 10-week journey on a single RTX 5090: hand-derived roofline predictions verified against vLLM measurements (0.7% error), open-loop knee at ~20 RPS, vLLM vs SGLang prefix-cache face-off, FP8 quantization accounting, a published negative result on N-gram speculative decoding, and unit economics down to ¥0.36/1M tokens. Includes 7 executable Jupyter notebooks, raw benchmark data, and a community GPU image for one-click reproduction.
+
 ## Contributing
 
 Corrections and additions are welcome, particularly:
