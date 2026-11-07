@@ -140,7 +140,7 @@ Legend: **read** sessions load context, **build** sessions produce output. **ski
 | Mon | *read* · [vLLM metrics design doc](https://docs.vllm.ai/en/latest/design/v1/metrics/). Learn what `num_requests_running`, `num_requests_waiting`, and the latency histograms actually measure. |
 | Tue | *build* · Stand up the [Prometheus and Grafana stack](https://docs.vllm.ai/en/latest/examples/online_serving/prometheus_grafana/) against your service. |
 | Wed | *build* · Import the dashboard JSON, confirm live panels move under a trickle of load. Fix the scrape config now, not in week 5 under 1000 concurrent requests. |
-| Thu | *read* · [Databricks performance engineering](https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices) and [NVIDIA benchmarking fundamentals](https://developer.nvidia.com/blog/llm-inference-benchmarking-fundamental-concepts/). Map every metric they define to a panel. Panels without a definition get deleted. |
+| Thu | *read* · [Databricks performance engineering](https://www.databricks.com/blog/llm-inference-performance-engineering-best-practices) and [NVIDIA benchmarking fundamentals](https://developer.nvidia.com/blog/llm-benchmarking-fundamental-concepts/). Map every metric they define to a panel. Panels without a definition get deleted. |
 | Fri | *read* · [How to Benchmark LLM Engines](https://modal.com/llm-almanac/how-to-benchmark) (Modal). Why you sweep request rate rather than pick one, and why the saturation point gets discarded. |
 | Buffer | Optional: [vLLM Office Hours 21: Production Stack Deep Dive](https://www.youtube.com/watch?v=0ZVu0A4wWQg) for observability in a deployed setting. |
 
